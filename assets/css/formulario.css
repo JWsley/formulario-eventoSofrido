@@ -1,0 +1,355 @@
+/*reset basico*/
+*{
+    /*margin:0;*/
+    /*padding:0;*/
+    box-sizing: border-box;
+    font-family: 'Inder';
+}
+
+
+
+/*---------*/
+
+
+
+
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(-45deg,#F7941D,#014484) no-repeat;
+    background-size: 500% 500%;
+    animation: gradient 30s ease infinite alternate;
+}
+
+
+
+
+
+.container{
+    margin-top: 10%;
+    margin-left: 15%;
+    transform: scale(1.15);
+
+    
+}
+
+
+
+
+/* Formulario e animação do formulario(Nome) */
+.form-label{
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+    display: block;
+    transition: all 0.3s;
+    transform: translateY(-4.5rem);
+    position: relative;
+    left: 31.5rem;
+    bottom: 27.4rem;
+    font-family: 'Inder';
+    color: #fff;
+}
+.input{
+    color: #fff;
+    font-size: 18px;
+    padding: 1rem 1.5rem;
+    border-radius: 2px;
+    background-color: rgb(17, 61, 105);
+
+    border: none;
+    border-bottom: 2px solid white;
+    background-size: 300% 300%;
+    animation: gradient 30s ease infinite alternate;
+
+    outline: none;
+    transition: all 0.3s;
+    position: relative;
+    left: 32rem;
+    bottom: 26.8rem;
+
+}
+input:placeholder-shown + .form-label{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(0rem);
+}
+/* fim */
+
+/* fundo do formulario(Parte azul) */
+
+
+
+.fundo{
+    position: fixed;
+    background-image: linear-gradient(175deg,#023f79,#326597 );
+    background-size: 300% 300%;
+    transform: scale(1.15);
+    position: relative;
+    left: 30rem;
+    width: 23rem;
+    height: 30rem;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.23);
+    
+}
+
+
+.btn{
+    padding: 8px 35px;
+    margin-top: 108%;
+    margin-left: 30%;
+    border-radius: 12px;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #014484;
+    color: white;
+
+}
+
+.idade{
+    position: absolute;
+    top: 43%;
+    margin-top: 5px;
+    left: 41%;
+    width: 23px;
+    color: white;
+    margin-top: 7px;
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;}
+
+.textidade{
+    position: absolute;
+    top: 43%;
+    margin-top: 5px;
+    left: 37%;
+    color: white;
+}
+/* Fim */
+
+/* formulario e animação do formulario(EMAIL) */
+.puxar{
+    color: #fff;
+    font-size: 18px;
+    padding: 1rem 1.5rem;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(17, 61, 105);
+
+    border-bottom: 2px  solid white;
+    background-size: 300% 300%;
+    animation: gradient 30s ease infinite alternate;
+    
+    outline: none;
+    transition: all 0.3s;
+    position: relative;
+    left: 32rem;
+    bottom: 25.9rem;
+  
+}
+.puxar:placeholder-shown + .form-email{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(0rem);
+}
+
+
+
+.form-email{
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+    display: block;
+    transition: all 0.3s;
+    transform: translateY(-2.5rem);
+    
+    background: none;
+    position: relative;
+    left: 31.5rem;
+    bottom: 28.4rem;
+    font-family: 'Inder';
+    color: #fff;
+
+
+}
+
+
+/* fim */
+
+/* formulario e animação do formulario(telefone) */
+.fone{
+    color: #fff;
+    font-size: 18px;
+    padding: 1rem 1.5rem;
+    border-radius: 2px;
+    background-color: rgb(17, 61, 105);
+
+    background-size: 300% 300%;
+    animation: gradient 30s ease infinite alternate;
+    border: none;
+    border-bottom: 2px  solid white;
+    outline: none;
+    transition: all 0.3s;
+    position: relative;
+    left: 32rem;
+    bottom: 24.8rem;
+
+}
+.fone:placeholder-shown + .form-telefone{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(0rem);
+}
+.form-telefone{
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+    display: block;
+    transition: all 0.3s;
+    transform: translateY(-2.5rem);
+    position: relative;
+    left: 31.5rem;
+    bottom: 27.4rem;
+    font-family: 'Inder';
+    color: #fff;
+}
+/* caixa de cursos */
+#select{
+    width: 17rem;
+    height: 2.5rem;
+    position: relative;
+    bottom: 25.6rem;
+    border: 1px solid white;
+    color: white;
+     
+    
+    --webkit-background-clip: '';
+    --webkit-text-fill-color: yellow;
+      --moz-appearance: none;
+      text-indent: 1px;
+      text-overflow: '';
+    
+    
+      left: 32rem;
+    outline: none;
+    border-radius: 1rem ;
+    background: none;
+    background-size: 300% 300%;
+    
+}
+
+
+option{
+    background-color: #014484;
+}
+/* fim */
+
+/* botao masculino */
+#botao{
+    
+    position: relative;
+    bottom: 23.3rem;
+    left: 16rem;
+
+}
+h1{
+    position: relative;
+    bottom: 26rem;
+    left: 33rem;
+    font-family: 'Inder';
+    font-size: 20px;
+    color: #fff;
+    font-weight: 100; 
+}
+#masc{
+    position: relative;
+    bottom: 26.2rem;
+    font-size: 18px;
+    left: 34.8rem;
+}
+/* fim */
+
+/* botao feminino */
+#botao2{
+    position: relative;
+    bottom: 28.4rem;
+    left: 42rem;
+}
+#fem{
+    position: relative;
+    bottom: 30.5rem;
+    font-size: 18px;
+    left: 43.4rem;
+}
+
+
+
+
+/* fim */
+
+/*Animação background e hover no formulario.*/
+
+
+
+@keyframes gradient {
+
+
+    0%{background-position: 0,50% ;}
+    50%{background-position: 100% ;}
+    100%{background-position: 0,50% ;}
+    
+}
+
+
+
+
+
+/* Configurações do hover:~
+
+    input com hover: background-color: rgb(17, 61, 105);
+
+    fundo do formulario com hover:  background-image: linear-gradient(175deg,#023f79,#326597 );
+
+
+*/
+
+
+
+
+
+
+
+
+ul{
+    position: relative;
+    font-size: 40px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50% -50%);
+
+    text-align: none;
+    color: black;
+    opacity: 0;
+    border: 5px solid black;
+    list-style: none;
+    transition: .25s 1s ease-in-out;
+    transition-delay: 1s;
+
+
+}
+
+
+
+
+input{
+    background-color: rgb(17, 61, 105);
+
+}
+
+
